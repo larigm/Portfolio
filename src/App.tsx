@@ -245,12 +245,18 @@ function App() {
 
             <div className="tech-column reveal reveal-delay-400">
               <h3 className="tech-col-title">Ferramentas</h3>
-              <div className="tech-badges-list">
+              <div className="tech-badges-list" style={{ marginBottom: '1.5rem' }}>
                 <span className="tech-badge">Git</span>
                 <span className="tech-badge">GitHub</span>
                 <span className="tech-badge">Figma</span>
                 <span className="tech-badge">Netlify</span>
                 <span className="tech-badge">Supabase</span>
+              </div>
+              <h3 className="tech-col-title">IA</h3>
+              <div className="tech-badges-list">
+                <span className="tech-badge">Antigravity</span>
+                <span className="tech-badge">Claude.AI</span>
+                <span className="tech-badge">Stitch.AI</span>
               </div>
             </div>
           </div>
