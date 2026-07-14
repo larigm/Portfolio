@@ -374,7 +374,7 @@ section {
 /* Technologies Section */
 .tech-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
 }
 
@@ -769,3 +769,16 @@ section {
 .reveal-delay-300 { transition-delay: 300ms; }
 .reveal-delay-400 { transition-delay: 400ms; }
 .reveal-delay-500 { transition-delay: 500ms; }
+
+.project-github-link {
+  color: var(--text-secondary);
+  transition: var(--transition-smooth);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-github-link:hover {
+  color: var(--text-primary);
+  transform: scale(1.1);
+}

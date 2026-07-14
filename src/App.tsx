@@ -245,13 +245,16 @@ function App() {
 
             <div className="tech-column reveal reveal-delay-400">
               <h3 className="tech-col-title">Ferramentas</h3>
-              <div className="tech-badges-list" style={{ marginBottom: '1.5rem' }}>
+              <div className="tech-badges-list">
                 <span className="tech-badge">Git</span>
                 <span className="tech-badge">GitHub</span>
                 <span className="tech-badge">Figma</span>
                 <span className="tech-badge">Netlify</span>
                 <span className="tech-badge">Supabase</span>
               </div>
+            </div>
+
+            <div className="tech-column reveal reveal-delay-500">
               <h3 className="tech-col-title">IA</h3>
               <div className="tech-badges-list">
                 <span className="tech-badge">Antigravity</span>
@@ -289,7 +292,18 @@ function App() {
                 <div>
                   <div className="project-card-header">
                     <h3 className="project-title">UTFPR Conecta</h3>
-                    <span className="project-status-badge">Projeto Acadêmico</span>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+                      <span className="project-status-badge">Projeto Acadêmico</span>
+                      <a 
+                        href="https://github.com/larigm/UTFPR-Conecta" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="project-github-link"
+                        title="Ver repositório no GitHub"
+                      >
+                        <GithubIcon size={18} />
+                      </a>
+                    </div>
                   </div>
                   <p className="project-description">
                     <strong>Plataforma para conectar alunos a eventos.</strong><br/>
@@ -317,7 +331,18 @@ function App() {
                 <div>
                   <div className="project-card-header">
                     <h3 className="project-title">Adote Petz</h3>
-                    <span className="project-status-badge">Projeto Acadêmico</span>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+                      <span className="project-status-badge">Projeto Acadêmico</span>
+                      <a 
+                        href="https://github.com/larigm/Petz" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="project-github-link"
+                        title="Ver repositório no GitHub"
+                      >
+                        <GithubIcon size={18} />
+                      </a>
+                    </div>
                   </div>
                   <p className="project-description">
                     <strong>Recriação da plataforma Adote Petz.</strong><br/>
